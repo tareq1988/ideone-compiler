@@ -68,9 +68,9 @@ if ( isset( $_POST['process'] ) && $_POST['process'] == 1 ) {
                 );
                 
                 if( $details['cmpinfo'] ) {
-					$data['cmpinfo'] = $details['cmpinfo'];
-				}
-				
+                    $data['cmpinfo'] = $details['cmpinfo'];
+                }
+                
                 echo json_encode( $data );
             } else {
                 //we got some error :(
