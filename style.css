@@ -1,0 +1,159 @@
+/* http://meyerweb.com/eric/tools/css/reset/ */
+/* v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	background: #eee;
+	font-size: 14px;
+}
+
+#wrapper {
+	margin: 10px auto 10px auto;
+	width: 800px;
+	background: #fff;
+	padding: 20px;
+	border: 1px solid #ccc;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+h1 {
+	border-bottom: 1px solid #CCCCCC;
+	font-size: 30px;
+	margin: 0 0 20px;
+	padding: 0 0 10px;
+	text-align: center;
+}
+
+h1 a {
+	text-decoration: none;
+	color: #25A33C;
+}
+
+h1 a:hover{
+	color: #2FBF4A;
+}
+
+label{
+	display: block;
+	margin: 10px 0 5px 0;
+	cursor: pointer;
+}
+
+input[type=submit]{
+    cursor: pointer;
+}
+
+input, select, textarea {
+	padding: 5px;
+	border: 1px solid #ccc;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+
+textarea {
+	width: 500px;
+}
+
+.loading {
+	background: url('ajax-loader.gif') no-repeat;
+	line-height: 30px;
+	padding: 0 0 0 35px;
+}
+
+#response {
+	margin: 20px 0 0 0;
+	border: 2px solid orange;
+	padding: 10px;
+	display: none;
+}
+
+.meta {
+	border-bottom: 1px solid #CCCCCC;
+	font-size: 12px;
+	margin-bottom: 10px;
+	padding: 0 0 10px;
+}
+
+.output, pre {
+	font-size: 13px;
+	font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+}
+
+.output {
+	overflow: auto;
+	max-height: 500px;
+}
+
+.cmpinfo {
+	border-bottom: 1px solid #CCCCCC;
+	font-size: 12px;
+	margin-bottom: 10px;
+	padding: 0 0 10px;
+}
+
+#footer {
+	text-align: center;
+	font-size: 11px;
+	border-top: 1px solid #ccc;
+	padding: 10px 0 0 0;
+	margin: 10px 0 0 0;
+	line-height: 20px;
+}
+
+.description {
+	font-size: 11px;
+}
