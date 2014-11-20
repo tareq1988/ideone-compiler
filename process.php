@@ -2,7 +2,7 @@
 error_reporting(0);
 
 $user = 'tareq';
-$pass = '';
+$pass = 'c0mm0n';
 $code = '';
 $input = '';
 $run = true;
